@@ -1,0 +1,17 @@
+<html lang="en">
+<%- include("./partials/head.ejs") %>
+
+<body>
+  <%- include("./partials/nav.ejs") %>
+
+  <div class="about content">
+    
+    <h3> joke</h3>
+    <h4><%= joke.body.setup%></h4>
+    <h4><%= joke.body.punchline%></h4>
+   
+  </div>
+
+  <%- include("./partials/footer.ejs") %>
+</body>
+</html>
